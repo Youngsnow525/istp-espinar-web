@@ -56,6 +56,73 @@ body{
 .tab-content{
     display: none;
 }
+#bienvenida {
+    position: absolute;
+    left: 12cm;
+    right: 1cm;
+    color: #2C3E50; 
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+#slogan {
+    font-style: italic;
+    color: #8E44AD; 
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+#puntos-fuertes {
+    position: absolute;
+    top: 10cm;
+    margin: 30px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#puntos-fuertes ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#puntos-fuertes li {
+    padding: 10px 15px;
+    background-color: #FEFEFE;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    font-size: 0.95em;
+    flex-basis: 30%;
+    min-width: 250px; 
+}
+#puntos-fuertes h2{
+    text-align: center;
+}
+
+
+.cta-button {
+    background-color: #8E44AD;
+    color: white;
+    position: absolute;
+    top: 17cm;
+    left: 12.5cm;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #3498DB;
+}
 .tab-content.visible{
     display: block;
 }
