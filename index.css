@@ -1,0 +1,113 @@
+body{
+    background-color: #b1bdc0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.contenedor-botones{
+    position: relative;
+    top: -2cm;
+    padding: 1.0cm;
+    display: flex;
+    width: 95%;
+    margin-bottom: 0.5cm;
+
+}
+.contenedor-botones button{ 
+    border-radius: 1cm;
+    
+    background-color: rgb(78, 75, 238);
+    color: rgb(212, 226, 255);
+    border: none;
+    padding: 0.5cm 1cm;   
+    cursor: pointer;
+    transition:background-color 0.3s;
+    margin-right: 1cm;
+    flex-grow: 1;
+    font-size: 1cm;
+}
+.contenedor-botones button:hover{
+    background-color: #aaa;
+}
+.contenedor-botones button.activo{
+    background-color: blueviolet;
+    color: white;
+    border-bottom: 2px solid #800880;
+}
+#titulo{
+    position: relative;
+    top: -1.3cm;
+    font-size: 2cm;
+    color: #800080;
+    text-align: center;
+}
+#contenedor-all{
+    position: relative;
+    top: -2cm;
+    right:1cm ;
+    left:1.2cm;
+    border: 2px solid #9900ff;
+    padding: 0.5cm;
+    width: 90%;
+    text-align: left;
+    min-height:20cm;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.visible{
+    display: block;
+}
+#tab2-content{
+    color: #000000;
+    font-size: 1cm;
+    text-align: center;
+}
+.carrera {
+    margin-bottom: 10px;
+    border: 1px solid #BDC3C7; 
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.carrera-header {
+    background-color: #ECF0F1; 
+    color: #2C3E50; 
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: left;
+}
+
+.carrera-header:hover {
+    background-color: #BDC3C7; 
+}
+
+
+.carrera-detalle {
+    padding: 0 15px;
+    background-color: #FEFEFE; 
+    max-height: 0; 
+    overflow: hidden;  
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out; 
+}
+
+
+.carrera-detalle.open {
+    max-height: 500px; 
+    padding: 15px;
+}
+
+.carrera-detalle p {
+    line-height: 1.6;
+}
+#imgfg{
+
+    position: absolute;
+    top: 1;
+    width: 9cm;
+}
