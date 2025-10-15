@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
             detalle.classList.toggle('open');
             
             if (detalle.classList.contains('open')) {
-                this.textContent = this.textContent.replace('[+]', '[-]');
+                this.textContent = this.textContent.replace('+', '-');
             } else {
-                this.textContent = this.textContent.replace('[-]', '[+]');
+                this.textContent = this.textContent.replace('-', '+');
             }
             
             headers.forEach(otherHeader => {

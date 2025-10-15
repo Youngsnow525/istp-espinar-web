@@ -91,7 +91,7 @@ body{
 
 #puntos-fuertes li {
     padding: 10px 15px;
-    background-color: #FEFEFE;
+    background-color: rgba(236, 236, 236,0.5);
     border: 1px solid #BDC3C7;
     border-radius: 5px;
     font-size: 0.95em;
@@ -101,8 +101,6 @@ body{
 #puntos-fuertes h2{
     text-align: center;
 }
-
-
 .cta-button {
     background-color: #8E44AD;
     color: white;
@@ -119,13 +117,17 @@ body{
     display: block;
     transition: background-color 0.3s;
 }
-
 .cta-button:hover {
     background-color: #3498DB;
 }
 .tab-content.visible{
     display: block;
 }
+
+
+
+
+/*contenedor num2*/
 #tab2-content{
     color: #000000;
     font-size: 1cm;
@@ -137,7 +139,6 @@ body{
     border-radius: 5px;
     overflow: hidden; 
 }
-
 .carrera-header {
     background-color: #ECF0F1; 
     color: #2C3E50; 
@@ -149,12 +150,9 @@ body{
     transition: background-color 0.3s;
     text-align: left;
 }
-
 .carrera-header:hover {
     background-color: #BDC3C7; 
 }
-
-
 .carrera-detalle {
     padding: 0 15px;
     background-color: #FEFEFE; 
@@ -162,8 +160,6 @@ body{
     overflow: hidden;  
     transition: max-height 0.4s ease-out, padding 0.4s ease-out; 
 }
-
-
 .carrera-detalle.open {
     max-height: 500px; 
     padding: 15px;
@@ -172,6 +168,60 @@ body{
 .carrera-detalle p {
     line-height: 1.6;
 }
+
+
+
+
+/*contendor num 3*/
+.servicios {
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+.servicio-card {
+    position: relative;
+    background-color: #FEFEFE; 
+    border: 1px solid #BDC3C7; 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+.servicio-card h3 {
+    color: #8E44AD;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+
+
+
+/* contenedor num4 nigger*/
+.seccion-mision, .seccion-vision {
+    border-left: 5px solid #3498DB; /* Turquesa Suave como barra lateral */
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #F5F5F5; /* Fondo Gris Suave */
+    border-radius: 5px;
+}
+
+.seccion-mision h3, .seccion-vision h3 {
+    color: #2C3E50; /* Azul Índigo */
+    margin-top: 0;
+}
+
+.lista-valores {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-valores li {
+    background: url('check_icon.png') no-repeat left center; /* Aquí podrías poner un icono */
+    padding-left: 25px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
 #imgfg{
 
     position: absolute;
